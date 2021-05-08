@@ -1,0 +1,112 @@
+
+.main{
+    display: flex;
+    height: 100vh;
+    background-color: rgba(245, 207, 192, 0);
+    align-items: center;
+    justify-content: center;
+    background: url(Butterfly-Backgrounds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f1{
+    width: 30%;
+    height: 55%;
+    background-image: linear-gradient(to top right, rgba(248, 227, 248, 0.356), white);
+    border-radius: 20px;
+    box-shadow: 0px 1px 9px 4px;
+    display: flex;
+    flex-direction: column;
+    border-color: chartreuse;
+    align-content: center;
+    justify-content: center;
+}
+.ff1{
+    background: none;
+    width: 70%;
+    height: 10%;
+    border-radius: 20px;
+    align-self: center;
+    outline: none;
+
+}
+.Sib1{
+    box-shadow: 0px opx 5px 1px;
+    width: 80px;
+    height: 50px;
+    justify-self: center;
+    align-self: center;
+}
+.mydiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Sib1{
+    background-color: rgb(158, 27, 4);
+    color: rgb(2, 138, 201);
+    border-radius: 50%;
+    cursor: pointer;
+    animation-name: Sib1;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+.Sib1:hover{
+    background-color: rgb(55, 35, 145);
+    color: rgb(36, 14, 36);
+}
+
+.welcome{
+    color: rgb(22, 16, 21);
+    font-style: italic;
+    align-self: center;
+}
+
+@keyframes example {
+    0%,100%  {
+        background-image:linear-gradient(to bottom left, rgba(241, 237, 28, 0.432), rgb(240, 179, 65))
+    }
+    25%  {background-image:linear-gradient(to bottom right, rgba(0, 0, 255, 0.521), rgb(218, 201, 201))}
+    50%  {background-image:linear-gradient(to bottom left, rgba(81, 226, 23, 0.507), pink)}
+    100% {background-image: linear-gradient(to bottom right, rgba(218, 22, 38, 0.589), white);}
+  }
+  
+  /* The element to apply the animation to */
+  f1 {
+    width: 110px;
+    height: 120px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+
+.ff1:focus{
+    width: 80%;
+}
+.UN{
+    align-self: center;
+    color: rgb(190, 46, 46);
+}
+
+@keyframes Sib1{
+    0%,100%{
+        background-image: linear-gradient(to left, red, yellow, green);
+    }
+    25%{
+        background-image: linear-gradient(to left, green, red, yellow);
+    }
+    50%{
+        background-image:linear-gradient(to left, yellow, green, red)
+    }
+}
+
+
+.SignUpLink{
+    align-self: center;
+}
