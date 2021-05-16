@@ -1,6 +1,13 @@
 import './Dashboard.css'
-import {useState} from 'react'
-function Dashboard(){
+import {useState,useContext} from 'react'
+import Button from '../../Components/Button/Button'
+import {MyContext} from '../../Store/Context'
+
+function Dashboard(props){
+
+
+
+      let {username, setUsername } =useContext(MyContext)
 
 return(
 
@@ -8,8 +15,15 @@ return(
       <div className="dbmain3">
             <div className="top">
 
-            </div>
+                  <p>Welcome:{username} </p>
 
+            </div>
+            {/* <Button
+            buttonname="Welcome"
+            bgColor="blue"
+            /> */}
+            
+           
 
 
             <div className="down">

@@ -1,6 +1,8 @@
 import './Signin.css'
 import{useHistory,Link} from 'react-router-dom'
 import {useState} from 'react'
+import Dashboard from '../Dashboard/Dashboard'
+import Button from '../../Components/Button/Button'
 function Signin(){
     
     let history=useHistory();
@@ -34,8 +36,14 @@ function Signin(){
        setPassword(event.target.value)
 
    }
+
+       
    
     return(
+
+        
+
+        
         <div className='main'>
            
             <form className='f1'>
@@ -57,7 +65,15 @@ function Signin(){
 
                 </form>
                
-
+                {/* <Dashboard
+          myname="Ewura Ama"
+           myage="15"
+             /> */}
+              {/* <Button 
+              buttonClick={}
+              buttonname="Signin"
+              bgColor="green"
+              /> */}
 
     
        
