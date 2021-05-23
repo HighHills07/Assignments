@@ -4,14 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom' 
-import {MyProvider} from './Store/Context'
+import {CartProvider} from './Jumia/Context2'
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-    <MyProvider>
+    <CartProvider>
     <App />
-    </MyProvider>
+    </CartProvider>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

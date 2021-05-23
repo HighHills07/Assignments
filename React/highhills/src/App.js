@@ -6,30 +6,42 @@ import Signup2 from './Assignment3/Signup2'
 import Dashboard2 from './Assignment3/Dashboard2'
 import Profile from './Assignment3/Profile'
 import Notifications from './Assignment3/Notifications'
+import Phones from './Jumia/Phones'
+import Watches from './Jumia/Watches'
 function App() {
   return (
    <div>
-   <Switch>
-      
-      {/* <Route exact path='/' component={Signin}/>
+   {/* <Switch> */}
+{/*        
+      <Route exact path='/' component={Signin}/>
       <Route exact path='/Signup' component={Signup}/>
-      <Route exact path='/Dashboard' component={Dashboard}/>
+      <Route exact path='/Dashboard' component={Dashboard}/> */}
       
-       */}
-       <Route exact path='/' component={Signup2} />
+       
+       {/* <Route exact path='/' component={Signup2} />
        <Route exact path='/Dashboard' component={Dashboard2} />
        <Route exact path='/Profile' component={Profile} />
        <Route exact path='/Notifications' component={Notifications} />
 
+ */}
+    {/* <Sswitch/> */}
+    <Switch>
+
+          <Route exact path ='/' component={Watches} />
+          <Route exact path ='/Phones' component={Phones} /> 
+ 
 
 
-    </Switch>
-
-    <Signup2/>
+            </Switch>
 
     
 
+    {/* <Signup2/> */}
+
+
     </div>
+
+    
       
     
     
